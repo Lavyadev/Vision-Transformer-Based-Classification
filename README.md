@@ -21,8 +21,9 @@ The datasets consist of grayscale images with shape `(64, 72)`. The following pr
 ## Evaluation Metrics
 The model's performance was evaluated using the following metrics:
 - **Accuracy**: `0.7380`
-- **ROC Curve**: The Receiver Operating Characteristic (ROC) curve was plotted to visualize the trade-off between true positive rate (TPR) and false positive rate (FPR).
 - **AUC**: The Area Under the Curve (AUC) was calculated as `0.8112`, indicating good model performance.
+- **ROC Curve**: The Receiver Operating Characteristic (ROC) curve was plotted to visualize the trade-off between true positive rate (TPR) and false positive rate (FPR).
+  ![ROC Curve](roc_curve.png)
 
 ## Results
 - **Accuracy**: `0.7380`
